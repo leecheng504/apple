@@ -4,12 +4,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Flask"
+    return "Hello 這是我們專題的網頁"
 
 
 @app.route("/test")
 def test():
-    return "this is test"
+    return "fuck"
 
 
 if __name__ == "__main__":
